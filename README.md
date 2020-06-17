@@ -17,7 +17,7 @@ O [Launchbase](https://rocketseat.com.br/launchbase) **é um treinamento no form
 
 ## :rocket: Desafios
 
-**1. Módulo 1 - Introdução à Programação Web**
+**1. Introdução à Programação Web**
 
 - [Primeiros Passos com JavaScript](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-1-primeiros-passos-com-js)
 - [Lidando com Objetos e Vetores](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-2-lidando-com-objetos-e-vetores)
