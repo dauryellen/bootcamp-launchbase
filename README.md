@@ -3,5 +3,23 @@
 </h1>
 
 <h2 align="center">
-  Lista de Aulas e Desafios do Bootcamp Launchbase
+  <p>Lista de Aulas e Desafios do Bootcamp Launchbase</p>
+  <p align="center">
+    <a href="https://rocketseat.com.br">
+      <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
+    </a>
+  </p>
 </h2>
+
+## 🔖 Sobre
+
+O [https://rocketseat.com.br/launchbase](LaunchBase) **é um treinamento no formato de bootcamp online** que tem duração de 8 semanas. A cada semana os conteúdos são liberados de acordo com um cronograma, guiando o aluno pelas ferramentas e conceitos mais modernos de desenvolvimento web para entrar com o pé direito nesse universo e **ir direto ao ponto naquilo que realmente importa para alcançar seus maiores objetivos como dev.**
+
+## :rocket: Desafios
+
+**1. Módulo 1 - Introdução à Programação Web**
+
+- [Primeiros Passos com JavaScript](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-1-primeiros-passos-com-js)
+- [Lidando com Objetos e Vetores](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-2-lidando-com-objetos-e-vetores)
+- [Funções e Estruturas de Repetição](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-3-funcoes-e-estruturas-de-repeticao)
+- [Aplicação: Operações bancárias](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-4-aplicacao-operacoes-bancarias)

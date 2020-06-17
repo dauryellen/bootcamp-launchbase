@@ -16,20 +16,13 @@ const usuarios = [
 ];
 
 function checaSeUsuarioUsaCSS(usuario) {
-  let tecnologia = false; // inicializa com false
   // Percorre o array de tecnologias do usuário até encontrar se ele trabalha com CSS
   for (let i = 0; i < usuario.tecnologias.length; i++) {
     if (usuario.tecnologias[i] === "CSS") {
-      // caso seja encontrada a tecnologia CSS atualiza pra true
-      tecnologia = true;
+      return true;
     }
   }
-  // SE encontrar, retorne true da função, caso contrário retorne false
-  if (tecnologia) {
-    return true;
-  } else {
-    return false;
-  }
+  return false;
 }
 
 for (let i = 0; i < usuarios.length; i++) {
