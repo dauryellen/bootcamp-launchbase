@@ -10,7 +10,7 @@ const sexo = "M";
 const idade = 40;
 const contribuicao = 12;*/
 
-const nome = "Eu daqui há 50 anos";
+const nome = "Eu daqui a 50 anos";
 const sexo = "F";
 const idade = 82;
 const contribuicao = 55;
