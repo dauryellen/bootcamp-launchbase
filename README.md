@@ -23,3 +23,7 @@ O [Launchbase](https://rocketseat.com.br/launchbase) **é um treinamento no form
 - [Lidando com Objetos e Vetores](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-2-lidando-com-objetos-e-vetores)
 - [Funções e Estruturas de Repetição](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-3-funcoes-e-estruturas-de-repeticao)
 - [Aplicação: Operações bancárias](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/01-4-aplicacao-operacoes-bancarias)
+
+**2. Iniciando no Front-End**
+
+- [Primeiro HTML](https://github.com/dauryellen/bootcamp-launchbase/blob/master/desafios/02-1-primeiro-html/index.html)
