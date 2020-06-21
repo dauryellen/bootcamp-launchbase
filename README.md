@@ -27,3 +27,4 @@ O [Launchbase](https://rocketseat.com.br/launchbase) **é um treinamento no form
 **2. Iniciando no Front-End**
 
 - [Primeiro HTML](https://github.com/dauryellen/bootcamp-launchbase/blob/master/desafios/02-1-primeiro-html)
+- [Página de descrição](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/02-2-pagina-descricao)
