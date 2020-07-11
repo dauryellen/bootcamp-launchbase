@@ -21,3 +21,7 @@ document.querySelector(".close-modal").addEventListener("click", function () {
 document.querySelector(".max-modal").addEventListener("click", function () {
   modal.classList.toggle("maximize");
 });
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") modal.classList.remove("maximize");
+});
