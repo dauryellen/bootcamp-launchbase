@@ -9,6 +9,7 @@ server.set("view engine", "njk");
 
 nunjucks.configure("views", {
   express: server,
+  noCache: true,
 });
 
 server.get("/", (req, res) => {
