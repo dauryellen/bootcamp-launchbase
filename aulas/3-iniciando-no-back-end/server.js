@@ -3,6 +3,8 @@ const nunjucks = require("nunjucks");
 
 const server = express();
 
+server.use(express.static("public"));
+
 server.set("view engine", "html");
 
 nunjucks.configure("views", {
@@ -10,7 +12,11 @@ nunjucks.configure("views", {
 });
 
 server.get("/", (req, res) => {
-  return res.send("Hello! I'm Daury.");
+  return res.render("index");
+});
+
+server.get("/portfolio", (req, res) => {
+  return res.render("portfolio");
 });
 
 server.listen(5000, () => {
