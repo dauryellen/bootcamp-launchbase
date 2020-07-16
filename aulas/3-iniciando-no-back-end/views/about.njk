@@ -1,21 +1,23 @@
 {% extends "layout.njk" %}
 {% block head %}
-  <title>Sobre - Daury Mendes</title>
+  <title>Sobre -
+    {{ about.name }}</title>
 {% endblock %}
 {% block content %}
   <div id="wrapper">
-    <img src="https://avatars2.githubusercontent.com/u/4925814?s=460&u=96551af1efae9c600457ae388077aa03e18f5b1a&v=4" alt="Foto Daury Mendes"/>
-    <h1>Daury Mendes</h1>
-    <h2>junior web developer</h2>
+    <img src="{{ about.avatar_url }}" alt="Imagem de {{ about.name }}"/>
+    <h1>{{ about.name }}</h1>
+    <h2>{{ about.role }}</h2>
     <p>
-      Programadora full-stack iniciante com foco em HTML, CSS e JavaScript. Estudante do Bootcamp Launchbase da
-      <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>.
+      {{ about.description }}
     </p>
   </div>
 
   <div id="links-footer" class="links">
-    <a href="https://www.github.com/dauryellen/" target="_blank">Github</a>
-    <a href="https://www.linkedin.com/in/dauryellen/" target="_blank">Linkedin</a>
-    <a href="https://www.twitter.com/dauryoque/" target="_blank">Twitter</a>
+    {% for link in about.links %}
+
+      <a href="{{ link.url }}" target="_blank">{{ link.name }}</a>
+
+    {% endfor %}
   </div>
 {% endblock %}
