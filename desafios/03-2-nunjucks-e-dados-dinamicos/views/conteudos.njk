@@ -1,0 +1,38 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <title>Conteúdos</title>
+{% endblock head %}
+
+{% block content %}
+  <div id="wrapper-conteudo">
+    <section class="cursos">
+      <div class="curso starter" id="starter">
+        <img src="/images/starter.svg" alt="Curso Starter"/>
+        <p>
+          <span class="starter-desc">Torne-se um programador desejado</span>
+          no mercado com esses cursos gratuitos
+        </p>
+      </div>
+      <div class="curso launchbase" id="launchbase">
+        <img src="/images/launchbase.svg" alt="Curso Launchbase"/>
+        <p>
+          <span class="launchbase-desc">Domine programação do zero</span>
+          e tenha acesso às melhores oportunidades do mercado
+        </p>
+      </div>
+      <div class="curso gostack" id="gostack">
+        <img src="/images/gostack.svg" alt="Curso GoStack"/>
+        <p>
+          <span class="gostack-desc">Treinamento imersivo</span>
+          nas tecnologias mais modernas de desenvolvimento web e mobile
+        </p>
+      </div>
+    </section>
+  </div>
+
+  {% include "modal.njk" %}
+
+  <script src="script.js"></script>
+{% endblock content %}

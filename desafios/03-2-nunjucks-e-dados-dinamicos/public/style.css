@@ -1,0 +1,223 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: #0a0a23;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: #ffffff;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+#wrapper-sobre {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#wrapper-sobre .img-principal {
+  border-radius: 50%;
+  border: 5px solid #6c4fbbbb;
+  height: 200px;
+}
+
+#wrapper-sobre h1 {
+  color: #0a0a23;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 15px;
+}
+
+#wrapper-sobre h2 {
+  color: #0a0a23;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.9;
+}
+
+#tecnologias {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#tecnologias ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tecnologias ul li {
+  margin-right: 40px;
+}
+
+#tecnologias img {
+  width: 120px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #0a0a23dd;
+}
+
+#tecnologias img:hover {
+  border: 0;
+  transform: scale(1.2, 1.2);
+  transition: ease 0.5s;
+}
+
+#footer {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer a {
+  display: flex;
+  text-decoration: none;
+  color: #0a0a23;
+  width: 120px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+#footer a:hover {
+  font-weight: 700;
+  color: #f5f6f7;
+  background: #1b1b32;
+  transition: ease 0.5s;
+  border-radius: 10px;
+}
+
+#wrapper-conteudo {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.cursos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  height: 80vh;
+  padding-left: 60px;
+}
+
+.curso {
+  max-width: 350px;
+  background-color: #1b1b32;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.curso p {
+  color: #f5f6f7;
+  margin: 35px;
+
+  font-size: 16px;
+}
+
+.starter span {
+  color: #7159c1;
+}
+
+.launchbase span {
+  color: #fd951f;
+}
+
+.gostack span {
+  color: #04d361;
+}
+
+.cursos .starter:hover {
+  border: 3px solid #7159c1;
+  transform: scale(1.1);
+  transition: ease 300ms;
+}
+
+.cursos .launchbase:hover {
+  border: 3px solid #fd951f;
+  transform: scale(1.1);
+  transition: ease 300ms;
+}
+
+.cursos .gostack:hover {
+  border: 3px solid #04d361;
+  transform: scale(1.1);
+  transition: ease 300ms;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal,
+.modal .max-modal {
+  color: black;
+  position: absolute;
+  cursor: pointer;
+}
+
+.modal .close-modal {
+  right: 8px;
+  top: 8px;
+}
+
+.modal .max-modal {
+  right: 38px;
+  top: 8px;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+iframe {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 6%;
+}
+
+.modal.maximize {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
