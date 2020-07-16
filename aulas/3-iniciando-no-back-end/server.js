@@ -18,7 +18,7 @@ server.get("/", (req, res) => {
 });
 
 server.get("/portfolio", (req, res) => {
-  return res.render("portfolio");
+  return res.render("portfolio", { items: videos });
 });
 
 server.listen(5000, () => {
