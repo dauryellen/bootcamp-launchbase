@@ -2,6 +2,8 @@ const express = require("express");
 const nunjucks = require("nunjucks");
 
 const server = express();
+const conteudos = require("./data");
+
 server.use(express.static("public"));
 
 server.set("view engine", "njk");
@@ -17,7 +19,7 @@ server.get("/", (req, res) => {
 });
 
 server.get("/conteudos", (req, res) => {
-  return res.render("conteudos");
+  return res.render("conteudos", { conteudos });
 });
 
 server.listen(5000, () => {
