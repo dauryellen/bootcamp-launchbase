@@ -4,6 +4,7 @@ module.exports = [
     title: "Formulário Animado com JS Puro e CSS Animation",
     duration: "57 min",
     price: "FREE",
+    featured: true,
   },
   {
     id: "2alg7MQ6_sI",
@@ -22,6 +23,7 @@ module.exports = [
     title: "O Que é API? REST e RESTful?",
     duration: "33 min",
     price: "FREE",
+    featured: true,
   },
   {
     id: "rAzHvYnQ8DY",
@@ -34,5 +36,6 @@ module.exports = [
     title: "Configurando VSCode para Node.js",
     duration: "22 min",
     price: "FREE",
+    featured: true,
   },
 ];
