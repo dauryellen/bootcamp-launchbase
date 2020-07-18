@@ -1,13 +1,14 @@
 {
-  "name": "03-2-nunjucks-e-dados-dinamicos",
+  "name": "03-1-primeiro-servidor",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1 align=\"center\">\r     <img alt=\"Launchbase\" src=\"https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png\" width=\"400px\" />\r </h1>",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Daury",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

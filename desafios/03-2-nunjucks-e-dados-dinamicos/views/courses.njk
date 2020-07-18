@@ -8,12 +8,12 @@
 {% block content %}
   <div id="wrapper-conteudo">
     <section class="cursos">
-      {% for conteudo in conteudos %}
+      {% for course in courses %}
 
-        <div class="curso {{ conteudo.name }}" id="{{ conteudo.name }}">
-          <img src="/images/{{ conteudo.name }}.svg" alt="Curso {{ conteudo.name }}"/>
+        <div class="curso {{ course.name }}" id="{{ course.name }}">
+          <img src="/images/{{ course.name }}.svg" alt="Curso {{ course.name }}"/>
           <p>
-            {{ conteudo.description }}
+            {{ course.description }}
           </p>
         </div>
 
