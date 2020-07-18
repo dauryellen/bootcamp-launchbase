@@ -17,9 +17,9 @@ O [Launchbase](https://rocketseat.com.br/launchbase) **é um treinamento no form
 
 ## :rocket: Desafios
 
-**0. [Foodfy](https://github.com/dauryellen/foodfy-bootcamp-challenge)**
+**0. Foodfy**
 
-Nesse desafio será construído um site completo para uma empresa de receitas chamada Foodfy.
+- Nesse desafio será construído um site completo para uma empresa de receitas chamada [Foodfy](https://github.com/dauryellen/foodfy-bootcamp-challenge).
 
 **1. Introdução à Programação Web**
 
