@@ -1,0 +1,25 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <title>Conteúdos</title>
+{% endblock head %}
+
+{% block content %}
+  <div id="wrapper-conteudo">
+    <section class="cursos">
+      {% for course in courses %}
+
+        <div class="curso {{ course.name }}" id="{{ course.name }}">
+          <img src="/images/{{ course.name }}.svg" alt="Curso {{ course.name }}"/>
+          <p>
+            {{ course.description }}
+          </p>
+        </div>
+
+      {% endfor %}
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+{% endblock content %}
