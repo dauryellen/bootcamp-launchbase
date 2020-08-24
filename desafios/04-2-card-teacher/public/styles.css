@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+	--primary-color: #0e0f3b;
+	--secondary-color: #e7e7e7;
+	--light-color: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--secondary-color);
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	background-color: var(--primary-color);
+	width: 100%;
+	padding: 32px;
+	text-align: center;
+}
+
+.links {
+	font-size: 32px;
+}
+
+.links a {
+	text-decoration: none;
+	color: var(--secondary-color);
+	position: relative;
+}
+
+.links a + a {
+	margin-left: 32px;
+}
+
+.links a.active {
+	font-weight: 700;
+	color: var(--light-color);
+}
+
+.links a:hover {
+	color: var(--secondary-color);
+}
+
+.links a::after {
+	content: "";
+	width: 0;
+	height: 2px;
+	background-color: var(--secondary-color);
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+}
+
+.links a:hover::after {
+	width: 100%;
+	transition: width 500ms cubic-bezier(1, -0.08, 0.58, 1);
+}
+
+/*=== CARD ===*/
+.card {
+	background-color: var(--light-color);
+	width: 800px;
+	min-height: 400px;
+
+	margin: 45px auto;
+
+	display: grid;
+	grid-template-columns: 40% 60%;
+
+	box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 0 10px 10px 0;
+
+	animation: up 1s ease;
+}
+
+@keyframes up {
+	from {
+		opacity: 0;
+		transform: translateY(15px);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/*=== DETAILS ===*/
+.details {
+	padding: 32px;
+}
+
+.details .item {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 16px 0;
+}
+
+.details .item:last-child {
+	border: none;
+}
+
+.details h3,
+.details .item div:nth-child(1) {
+	color: #777;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.7px;
+}
+
+.details .item div:nth-child(2) {
+	color: #555;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.details h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--primary-color);
+}
+
+.details .item span {
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: var(--primary-color);
+	border-radius: 16px;
+	color: var(--light-color);
+	margin-right: 4px;
+	margin-top: 8px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12px;
+}
