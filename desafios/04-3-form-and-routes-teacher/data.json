@@ -1,0 +1,24 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "http://google.com",
+      "name": "Daury Mendes",
+      "birth": 579571200000,
+      "graduation": "medio",
+      "type": "D",
+      "classes": "Matemática",
+      "created_at": 1598463774332
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://instagram.com",
+      "name": "Pedro Gomes",
+      "birth": 317433600000,
+      "graduation": "superior",
+      "type": "P",
+      "classes": "Artes",
+      "created_at": 1598463824405
+    }
+  ]
+}
