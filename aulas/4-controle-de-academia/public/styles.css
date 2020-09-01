@@ -109,7 +109,6 @@ header {
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.7px;
-
 }
 
 .details .item div:nth-child(2) {
@@ -156,7 +155,8 @@ input::placeholder {
 	font-weight: normal;
 }
 
-button[type="submit"] {
+button[type="submit"],
+a.button {
 	padding: 8px 32px;
 	background-color: var(--primary-color);
 	color: #fff;
@@ -165,4 +165,10 @@ button[type="submit"] {
 	width: 100%;
 	cursor: pointer;
 	font-size: 16px;
+}
+
+a.button {
+	display: block;
+	text-align: center;
+	text-decoration: none;
 }
