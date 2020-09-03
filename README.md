@@ -45,3 +45,4 @@ O [Launchbase](https://rocketseat.com.br/launchbase) **é um treinamento no form
 - [Header](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/04-1-header)
 - [Card do Professor](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/04-2-card-teacher)
 - [Formulário e Rota de cadastro do Professor](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/04-3-form-and-routes-teacher)
+- [Apresentação, edição e formatação dos dados de um professor](https://github.com/dauryellen/bootcamp-launchbase/tree/master/desafios/04-4-show-edit-format-teacher)
