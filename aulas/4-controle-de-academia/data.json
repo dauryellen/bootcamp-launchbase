@@ -1,22 +1,3 @@
 {
-  "instructors": [
-    {
-      "id": 1,
-      "avatar_url": "http://google.com",
-      "name": "Daury Mendes",
-      "birth": 579571200000,
-      "gender": "F",
-      "services": "BJJ,Weight Training",
-      "created_at": 1598962519293
-    },
-    {
-      "id": 2,
-      "avatar_url": "http://instagram.com",
-      "name": "Pedro Gomes",
-      "birth": 317433600000,
-      "gender": "M",
-      "services": "CrossFit,Weight Training",
-      "created_at": 1598962550115
-    }
-  ]
+  "instructors": []
 }
